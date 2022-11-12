@@ -1,419 +1,698 @@
 
 skeleton.png
-size: 4096,2048
+size: 2048,2048
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-arm(L)
+(L) leg lv4
   rotate: true
-  xy: 2014, 1550
-  size: 366, 562
-  orig: 366, 562
+  xy: 1173, 1163
+  size: 145, 873
+  orig: 145, 873
   offset: 0, 0
   index: -1
-arm(R)
+(L)rabbitEar
   rotate: false
-  xy: 1319, 230
-  size: 433, 182
-  orig: 433, 182
+  xy: 1009, 2
+  size: 496, 223
+  orig: 496, 223
   offset: 0, 0
   index: -1
-armUp(R)
-  rotate: false
-  xy: 2818, 302
-  size: 171, 448
-  orig: 171, 448
-  offset: 0, 0
-  index: -1
-body
+(L)shoulder lv2
   rotate: true
-  xy: 455, 4
-  size: 515, 1535
-  orig: 515, 1535
+  xy: 1959, 1313
+  size: 251, 64
+  orig: 251, 64
   offset: 0, 0
   index: -1
-boobs(L)
+(R) leg lv1,2,3
   rotate: false
-  xy: 2722, 1750
-  size: 219, 297
-  orig: 219, 299
+  xy: 1876, 203
+  size: 146, 958
+  orig: 146, 958
   offset: 0, 0
   index: -1
-boobs(L)_light
-  rotate: false
-  xy: 1034, 1443
-  size: 87, 111
-  orig: 87, 130
-  offset: 0, 19
-  index: -1
-boobs(R)
-  rotate: false
-  xy: 1105, 1474
-  size: 234, 308
-  orig: 234, 309
-  offset: 0, 0
-  index: -1
-boobs(R)_light
-  rotate: false
-  xy: 2, 39
-  size: 56, 140
-  orig: 56, 140
-  offset: 0, 0
-  index: -1
-cloth(L)
-  rotate: false
-  xy: 991, 609
-  size: 217, 234
-  orig: 217, 234
-  offset: 0, 0
-  index: -1
-cloth(R)
+(R) leg lv4
   rotate: true
-  xy: 2613, 3
-  size: 372, 285
-  orig: 373, 285
+  xy: 2, 113
+  size: 168, 1005
+  orig: 168, 1005
   offset: 0, 0
   index: -1
-clothBack(L)
+(R)breast _prop lv4
   rotate: false
-  xy: 540, 372
-  size: 73, 144
-  orig: 73, 144
+  xy: 1756, 6
+  size: 66, 44
+  orig: 66, 44
   offset: 0, 0
   index: -1
-clothBack(R)
+(R)hand lv3,4,5
   rotate: false
-  xy: 2, 1053
-  size: 98, 168
-  orig: 98, 168
+  xy: 1173, 1331
+  size: 80, 62
+  orig: 80, 62
   offset: 0, 0
   index: -1
-clothLong(L)
+(R)leg-calf lv5
   rotate: false
-  xy: 2505, 23
-  size: 245, 890
-  orig: 245, 890
+  xy: 1024, 227
+  size: 158, 623
+  orig: 158, 623
   offset: 0, 0
   index: -1
-clothLong(R)
-  rotate: 180
-  xy: 2, 61
-  size: 410, 918
-  orig: 410, 918
+(R)ribbonback lv2,3
+  rotate: false
+  xy: 1261, 1310
+  size: 696, 254
+  orig: 696, 254
   offset: 0, 0
   index: -1
-clothLongShadow(R)
+(R)shoulder Lv1
   rotate: false
-  xy: 1324, 672
-  size: 224, 171
-  orig: 227, 174
-  offset: 0, 2
-  index: -1
-dropFrontNew
-  rotate: false
-  xy: 1184, 1280
-  size: 51, 187
-  orig: 51, 187
+  xy: 1609, 52
+  size: 238, 197
+  orig: 238, 197
   offset: 0, 0
   index: -1
-eyeBrows
-  rotate: false
-  xy: 1296, 868
-  size: 147, 56
-  orig: 147, 56
+(R)shoulder lv2
+  rotate: true
+  xy: 280, 42
+  size: 69, 277
+  orig: 69, 277
   offset: 0, 0
   index: -1
-eyes
-  rotate: false
-  xy: 2, 985
-  size: 174, 77
-  orig: 174, 77
+(R)shoulder lv3,4,5
+  rotate: true
+  xy: 2, 34
+  size: 77, 276
+  orig: 77, 276
   offset: 0, 0
   index: -1
-eyesClose
+ChessB
   rotate: false
-  xy: 1145, 1970
-  size: 158, 76
-  orig: 162, 76
+  xy: 1507, 2
+  size: 100, 199
+  orig: 100, 199
+  offset: 0, 0
+  index: -1
+big collar
+  rotate: true
+  xy: 1597, 251
+  size: 604, 277
+  orig: 604, 277
+  offset: 0, 0
+  index: -1
+blush
+  rotate: false
+  xy: 2, 2
+  size: 135, 30
+  orig: 135, 30
+  offset: 0, 0
+  index: -1
+dressLow_B lv1
+  rotate: false
+  xy: 2, 1395
+  size: 1257, 651
+  orig: 1257, 651
+  offset: 0, 0
+  index: -1
+dressLow_F lv1
+  rotate: false
+  xy: 2, 852
+  size: 1169, 541
+  orig: 1169, 541
+  offset: 0, 0
+  index: -1
+dressUp_B lv1,2,3
+  rotate: false
+  xy: 1173, 857
+  size: 672, 304
+  orig: 672, 304
   offset: 0, 0
   index: -1
 face
-  rotate: false
-  xy: 2, 170
-  size: 222, 276
-  orig: 222, 276
-  offset: 0, 0
-  index: -1
-flower(L)
-  rotate: false
-  xy: 1506, 666
-  size: 186, 120
-  orig: 186, 120
-  offset: 0, 0
-  index: -1
-flower(R)
-  rotate: false
-  xy: 2028, 1854
-  size: 356, 181
-  orig: 356, 181
-  offset: 0, 0
-  index: -1
-flowerANew
-  rotate: false
-  xy: 1571, 1823
-  size: 155, 223
-  orig: 155, 224
-  offset: 0, 1
-  index: -1
-flowerBNew
-  rotate: false
-  xy: 1170, 1783
-  size: 91, 101
-  orig: 91, 107
-  offset: 0, 6
-  index: -1
-flowerDNew
-  rotate: false
-  xy: 1328, 1643
-  size: 85, 114
-  orig: 85, 114
-  offset: 0, 0
-  index: -1
-flowerLeg(L)New
-  rotate: false
-  xy: 2520, 1741
-  size: 90, 170
-  orig: 90, 170
-  offset: 0, 0
-  index: -1
-flowerLeg(R)New
-  rotate: false
-  xy: 2, 1839
-  size: 135, 207
-  orig: 135, 207
-  offset: 0, 0
-  index: -1
-flowerThigh(L)New
-  rotate: false
-  xy: 2, 1746
-  size: 35, 37
-  orig: 35, 37
-  offset: 0, 0
-  index: -1
-flowerThigh(R)New
-  rotate: false
-  xy: 1554, 1153
-  size: 151, 173
-  orig: 151, 173
+  rotate: true
+  xy: 1849, 29
+  size: 172, 184
+  orig: 172, 184
   offset: 0, 0
   index: -1
 hairBack
   rotate: false
-  xy: 2, 380
-  size: 1320, 1666
-  orig: 1320, 1666
+  xy: 2, 283
+  size: 1020, 567
+  orig: 1020, 567
+  offset: 0, 0
+  index: -1
+heartD lv5
+  rotate: false
+  xy: 1995, 1602
+  size: 45, 63
+  orig: 45, 63
+  offset: 0, 0
+  index: -1
+liquid A v4
+  rotate: false
+  xy: 2024, 1079
+  size: 13, 82
+  orig: 13, 82
+  offset: 0, 0
+  index: -1
+liquid B lv4
+  rotate: false
+  xy: 1847, 898
+  size: 19, 263
+  orig: 19, 263
+  offset: 0, 0
+  index: -1
+liquid lv4
+  rotate: false
+  xy: 559, 15
+  size: 255, 96
+  orig: 255, 96
+  offset: 0, 0
+  index: -1
+rabbit lv4
+  rotate: false
+  xy: 1184, 231
+  size: 411, 624
+  orig: 411, 624
+  offset: 0, 0
+  index: -1
+rabbit lv5
+  rotate: true
+  xy: 1261, 1566
+  size: 480, 732
+  orig: 480, 732
+  offset: 0, 0
+  index: -1
+shock lv4
+  rotate: false
+  xy: 912, 15
+  size: 66, 96
+  orig: 66, 96
+  offset: 0, 0
+  index: -1
+shyLine lv3
+  rotate: true
+  xy: 1995, 1774
+  size: 125, 28
+  orig: 125, 28
+  offset: 0, 0
+  index: -1
+shyLine lv4
+  rotate: false
+  xy: 1609, 6
+  size: 145, 44
+  orig: 145, 44
+  offset: 0, 0
+  index: -1
+shyLine lv5
+  rotate: true
+  xy: 1995, 1901
+  size: 145, 44
+  orig: 145, 44
+  offset: 0, 0
+  index: -1
+sweat lv3
+  rotate: true
+  xy: 1995, 1667
+  size: 105, 29
+  orig: 105, 29
+  offset: 0, 0
+  index: -1
+sweat lv4
+  rotate: true
+  xy: 816, 2
+  size: 109, 94
+  orig: 109, 94
+  offset: 0, 0
+  index: -1
+sweat lv5
+  rotate: false
+  xy: 139, 2
+  size: 103, 30
+  orig: 103, 30
+  offset: 0, 0
+  index: -1
+
+skeleton2.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+(L) ankleRing_B lv1,2,3,4
+  rotate: true
+  xy: 853, 287
+  size: 155, 71
+  orig: 155, 71
+  offset: 0, 0
+  index: -1
+(L) ankleRing_F lv1,2,3,4
+  rotate: true
+  xy: 1442, 1187
+  size: 159, 88
+  orig: 159, 88
+  offset: 0, 0
+  index: -1
+(L) leg lv123
+  rotate: false
+  xy: 2, 758
+  size: 139, 836
+  orig: 139, 836
+  offset: 0, 0
+  index: -1
+(L)bikini lv4
+  rotate: true
+  xy: 924, 465
+  size: 89, 162
+  orig: 89, 162
+  offset: 0, 0
+  index: -1
+(L)breast lv1,2
+  rotate: true
+  xy: 1442, 1056
+  size: 129, 117
+  orig: 129, 117
+  offset: 0, 0
+  index: -1
+(L)breast lv3
+  rotate: false
+  xy: 411, 26
+  size: 143, 133
+  orig: 143, 133
+  offset: 0, 0
+  index: -1
+(L)breast lv4
+  rotate: false
+  xy: 846, 2
+  size: 143, 110
+  orig: 143, 110
+  offset: 0, 0
+  index: -1
+(L)breast lv5
+  rotate: true
+  xy: 612, 730
+  size: 144, 103
+  orig: 144, 103
+  offset: 0, 0
+  index: -1
+(L)hand lv1,2
+  rotate: true
+  xy: 2, 2
+  size: 157, 169
+  orig: 157, 169
+  offset: 0, 0
+  index: -1
+(L)hand lv3,4
+  rotate: true
+  xy: 991, 21
+  size: 94, 142
+  orig: 94, 142
+  offset: 0, 0
+  index: -1
+(L)hand lv5
+  rotate: false
+  xy: 1602, 1229
+  size: 92, 126
+  orig: 92, 126
+  offset: 0, 0
+  index: -1
+(L)handAura B lv1
+  rotate: true
+  xy: 1184, 1479
+  size: 194, 369
+  orig: 194, 369
+  offset: 0, 0
+  index: -1
+(L)handAura F lv1
+  rotate: true
+  xy: 1555, 1357
+  size: 194, 369
+  orig: 194, 369
+  offset: 0, 0
+  index: -1
+(L)leg-calf lv5
+  rotate: false
+  xy: 2, 162
+  size: 135, 594
+  orig: 135, 594
+  offset: 0, 0
+  index: -1
+(L)leg-thigh lv5
+  rotate: true
+  xy: 143, 708
+  size: 166, 467
+  orig: 166, 467
+  offset: 0, 0
+  index: -1
+(L)low arm lv1,2
+  rotate: false
+  xy: 1989, 1754
+  size: 57, 161
+  orig: 57, 161
+  offset: 0, 0
+  index: -1
+(L)lower arm lv3,4,5
+  rotate: true
+  xy: 580, 494
+  size: 212, 62
+  orig: 212, 62
+  offset: 0, 0
+  index: -1
+(L)ribbonback lv2,3
+  rotate: true
+  xy: 1046, 1675
+  size: 371, 551
+  orig: 371, 551
+  offset: 0, 0
+  index: -1
+(L)shoulder lv1
+  rotate: false
+  xy: 1184, 1319
+  size: 246, 158
+  orig: 246, 158
+  offset: 0, 0
+  index: -1
+(L)shoulder lv3,4,5
+  rotate: true
+  xy: 961, 707
+  size: 61, 223
+  orig: 61, 223
+  offset: 0, 0
+  index: -1
+(L)sling lv4
+  rotate: true
+  xy: 1432, 1348
+  size: 60, 116
+  orig: 60, 116
+  offset: 0, 0
+  index: -1
+(R) ankleRing_B lv1,2,3,4
+  rotate: true
+  xy: 1926, 1349
+  size: 202, 99
+  orig: 202, 99
+  offset: 0, 0
+  index: -1
+(R) ankleRing_F lv1,2,3,4
+  rotate: true
+  xy: 567, 290
+  size: 202, 97
+  orig: 202, 97
+  offset: 0, 0
+  index: -1
+(R) low arm lv1,2
+  rotate: false
+  xy: 961, 638
+  size: 169, 67
+  orig: 169, 67
+  offset: 0, 0
+  index: -1
+(R) low arm lv3,4,5
+  rotate: true
+  xy: 644, 530
+  size: 198, 71
+  orig: 198, 71
+  offset: 0, 0
+  index: -1
+(R)bikini lv4
+  rotate: true
+  xy: 927, 117
+  size: 79, 151
+  orig: 79, 151
+  offset: 0, 0
+  index: -1
+(R)breast lv1,2
+  rotate: false
+  xy: 1885, 1917
+  size: 161, 129
+  orig: 161, 129
+  offset: 0, 0
+  index: -1
+(R)breast lv3
+  rotate: false
+  xy: 556, 20
+  size: 137, 139
+  orig: 137, 139
+  offset: 0, 0
+  index: -1
+(R)breast lv4
+  rotate: false
+  xy: 1431, 782
+  size: 132, 132
+  orig: 132, 132
+  offset: 0, 0
+  index: -1
+(R)breast lv5
+  rotate: false
+  xy: 1431, 916
+  size: 132, 138
+  orig: 132, 138
+  offset: 0, 0
+  index: -1
+(R)gloves lv1,2
+  rotate: false
+  xy: 666, 311
+  size: 185, 131
+  orig: 185, 131
+  offset: 0, 0
+  index: -1
+(R)leg-thigh lv5
+  rotate: true
+  xy: 139, 161
+  size: 164, 403
+  orig: 164, 403
+  offset: 0, 0
+  index: -1
+(R)rabbitEar_lv1,2,3
+  rotate: true
+  xy: 139, 327
+  size: 166, 426
+  orig: 166, 426
+  offset: 0, 0
+  index: -1
+(R)rabbitEar_lv4,5
+  rotate: false
+  xy: 139, 495
+  size: 439, 211
+  orig: 439, 211
+  offset: 0, 0
+  index: -1
+(R)sling lv4
+  rotate: true
+  xy: 1046, 1605
+  size: 68, 128
+  orig: 68, 128
+  offset: 0, 0
+  index: -1
+ChessA
+  rotate: true
+  xy: 173, 41
+  size: 118, 236
+  orig: 118, 236
+  offset: 0, 0
+  index: -1
+ChessC
+  rotate: true
+  xy: 846, 114
+  size: 171, 79
+  orig: 171, 79
+  offset: 0, 0
+  index: -1
+ChessD
+  rotate: false
+  xy: 1432, 1410
+  size: 121, 67
+  orig: 121, 67
+  offset: 0, 0
+  index: -1
+Rabbit lv1,2,3
+  rotate: false
+  xy: 143, 1218
+  size: 544, 376
+  orig: 544, 376
+  offset: 0, 0
+  index: -1
+angry lv2,3
+  rotate: false
+  xy: 1132, 651
+  size: 50, 54
+  orig: 50, 54
+  offset: 0, 0
+  index: -1
+body lv1,2
+  rotate: true
+  xy: 689, 1310
+  size: 284, 493
+  orig: 284, 493
+  offset: 0, 0
+  index: -1
+body lv3
+  rotate: false
+  xy: 1599, 1553
+  size: 284, 493
+  orig: 284, 493
+  offset: 0, 0
+  index: -1
+body lv4
+  rotate: true
+  xy: 717, 1040
+  size: 268, 471
+  orig: 268, 471
+  offset: 0, 0
+  index: -1
+body lv5
+  rotate: true
+  xy: 717, 770
+  size: 268, 498
+  orig: 268, 498
+  offset: 0, 0
+  index: -1
+dressRibbon lv1,2,3
+  rotate: true
+  xy: 1217, 714
+  size: 342, 212
+  orig: 342, 212
+  offset: 0, 0
+  index: -1
+dressUp_F lv1,2,3
+  rotate: false
+  xy: 143, 876
+  size: 572, 340
+  orig: 572, 340
+  offset: 0, 0
+  index: -1
+face lv1
+  rotate: false
+  xy: 926, 325
+  size: 155, 138
+  orig: 155, 138
+  offset: 0, 0
+  index: -1
+face lv2
+  rotate: false
+  xy: 689, 167
+  size: 155, 142
+  orig: 155, 142
+  offset: 0, 0
+  index: -1
+face lv4
+  rotate: false
+  xy: 544, 161
+  size: 143, 127
+  orig: 143, 127
+  offset: 0, 0
+  index: -1
+face lv5
+  rotate: false
+  xy: 695, 9
+  size: 149, 156
+  orig: 149, 156
+  offset: 0, 0
+  index: -1
+face3
+  rotate: false
+  xy: 927, 198
+  size: 146, 125
+  orig: 146, 125
   offset: 0, 0
   index: -1
 hairFront
-  rotate: 180
-  xy: 2688, 886
-  size: 435, 456
-  orig: 435, 457
-  offset: 0, 0
-  index: -1
-hairShadow
-  rotate: false
-  xy: 2384, 1804
-  size: 169, 242
-  orig: 169, 246
-  offset: 0, 0
-  index: -1
-hair_A
-  rotate: false
-  xy: 1323, 1759
-  size: 246, 287
-  orig: 246, 287
-  offset: 0, 0
-  index: -1
-hair_B
   rotate: true
-  xy: 2672, 272
-  size: 253, 150
-  orig: 253, 150
+  xy: 1190, 1058
+  size: 259, 250
+  orig: 259, 250
   offset: 0, 0
   index: -1
-hair_C
+heartA lv5
   rotate: false
-  xy: 924, 470
-  size: 160, 131
-  orig: 160, 131
+  xy: 1757, 1266
+  size: 65, 89
+  orig: 65, 89
   offset: 0, 0
   index: -1
-hair_D
-  rotate: false
-  xy: 289, 607
-  size: 88, 144
-  orig: 88, 144
-  offset: 0, 0
-  index: -1
-hair_E
-  rotate: false
-  xy: 2, 396
-  size: 69, 292
-  orig: 69, 292
-  offset: 0, 0
-  index: -1
-headBack
-  rotate: 180
-  xy: 2632, 632
-  size: 403, 430
-  orig: 403, 430
-  offset: 0, 0
-  index: -1
-jelleryBigBack(L)
-  rotate: false
-  xy: 219, 807
-  size: 80, 114
-  orig: 80, 114
-  offset: 0, 0
-  index: -1
-jelleryG(L)
-  rotate: false
-  xy: 2900, 1343
-  size: 140, 312
-  orig: 140, 312
-  offset: 0, 0
-  index: -1
-jelleryG2(L)
-  rotate: false
-  xy: 2, 1951
-  size: 72, 75
-  orig: 72, 75
-  offset: 0, 0
-  index: -1
-jelleryR(L)
-  rotate: false
-  xy: 3007, 1160
-  size: 90, 886
-  orig: 90, 886
-  offset: 0, 0
-  index: -1
-jellerybig(L)
-  rotate: false
-  xy: 2054, 3
-  size: 111, 245
-  orig: 111, 245
-  offset: 0, 0
-  index: -1
-jellerybig(R)
-  rotate: false
-  xy: 1619, 1158
-  size: 120, 248
-  orig: 120, 248
-  offset: 0, 0
-  index: -1
-leg(R)
-  rotate: false
-  xy: 2179, 3
-  size: 451, 1069
-  orig: 451, 1072
-  offset: 0, 0
-  index: -1
-mouth
-  rotate: false
-  xy: 2, 1252
-  size: 58, 30
-  orig: 58, 30
-  offset: 0, 0
-  index: -1
-mouth(Open)
-  rotate: false
-  xy: 2, 1785
-  size: 43, 52
-  orig: 43, 52
-  offset: 0, 0
-  index: -1
-shy
-  rotate: false
-  xy: 1946, 71
-  size: 166, 120
-  orig: 191, 153
-  offset: 4, 16
-  index: -1
-silkA
-  rotate: 270
-  xy: 1160, 385
-  size: 190, 956
-  orig: 190, 956
-  offset: 0, 0
-  index: -1
-silkA_Back
-  rotate: false
-  xy: 2709, 1238
-  size: 337, 506
-  orig: 337, 508
-  offset: 0, 0
-  index: -1
-silkB
+heartB lv5
   rotate: true
-  xy: 1111, 557
-  size: 425, 814
-  orig: 425, 814
+  xy: 1989, 1707
+  size: 45, 57
+  orig: 45, 57
   offset: 0, 0
   index: -1
-silkB_Back
+heartC lv5
   rotate: false
-  xy: 2614, 1050
-  size: 106, 997
-  orig: 106, 1015
+  xy: 1824, 1281
+  size: 61, 74
+  orig: 61, 74
   offset: 0, 0
   index: -1
-star(L)
+liquid lv5
   rotate: false
-  xy: 399, 245
-  size: 145, 256
-  orig: 145, 256
+  xy: 1431, 703
+  size: 155, 77
+  orig: 155, 77
   offset: 0, 0
   index: -1
-star(R)
+neck ribbon lv1,2
   rotate: false
-  xy: 1017, 1259
-  size: 172, 265
-  orig: 172, 265
+  xy: 717, 444
+  size: 205, 104
+  orig: 205, 104
   offset: 0, 0
   index: -1
-star(R)_shadow
+neck ribbon lv3,4,5
   rotate: false
-  xy: 2271, 668
-  size: 188, 286
-  orig: 188, 286
+  xy: 717, 550
+  size: 204, 141
+  orig: 204, 141
   offset: 0, 0
   index: -1
-starShadow(L)
+pubis lv5
   rotate: false
-  xy: 343, 388
-  size: 174, 270
-  orig: 183, 270
-  offset: 4, 0
-  index: -1
-thighLight(R)
-  rotate: false
-  xy: 2873, 3
-  size: 220, 599
-  orig: 223, 611
+  xy: 1696, 1256
+  size: 59, 99
+  orig: 59, 99
   offset: 0, 0
   index: -1
-tree
-  rotate: false
-  xy: 1053, 133
-  size: 1268, 1913
-  orig: 1268, 1913
+rabbbitAngry lv4
+  rotate: true
+  xy: 1885, 1553
+  size: 111, 114
+  orig: 111, 114
   offset: 0, 0
   index: -1
-window
+rope lv4
+  rotate: true
+  xy: 717, 693
+  size: 75, 242
+  orig: 75, 242
+  offset: 0, 0
+  index: -1
+rope lv5
   rotate: false
-  xy: 1751, 886
-  size: 813, 814
-  orig: 813, 814
+  xy: 1885, 1666
+  size: 102, 249
+  orig: 102, 249
+  offset: 0, 0
+  index: -1
+shyRed lv3
+  rotate: true
+  xy: 1532, 1191
+  size: 155, 68
+  orig: 155, 68
+  offset: 0, 0
+  index: -1
+shyRed lv4,5
+  rotate: false
+  xy: 923, 556
+  size: 169, 80
+  orig: 169, 80
+  offset: 0, 0
+  index: -1
+stage
+  rotate: false
+  xy: 2, 1596
+  size: 1042, 450
+  orig: 1042, 450
   offset: 0, 0
   index: -1
