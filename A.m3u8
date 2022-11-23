@@ -1,6 +1,8 @@
 #EXTM3U
 #EXTINF:-1,Klan
 http://quality-restream.com:8080/GenIptvLast/FaP6YswK77NaOPOF/1853
+#EXTINF:-1,AL: TOP Channel
+http://quality-restream.com:8080/GenIptvLast/FaP6YswK77NaOPOF/1311
 #EXTINF:-1,Dukagjini
 http://185.234.217.24:8001/play/Dukagjini
 #EXTINF:-1,artsport 2
